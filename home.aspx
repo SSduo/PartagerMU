@@ -351,20 +351,20 @@
                     <div class="col-lg-6 col-12">
                         <h2 class="text-white mb-4">Volunteer</h2>
 
-                        <form class="custom-form volunteer-form mb-5 mb-lg-0" action="#" method="post" role="form">
+                        <div class="custom-form volunteer-form mb-5 mb-lg-0">
                             <h3 class="mb-4">Become a volunteer today</h3>
 
                             <div class="row">
                                 <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control" placeholder="Jack Doe" required>
+                                    <input type="text" name="volunteer-name" id="volunteer-name" class="form-control" placeholder="Jack Doe">
                                 </div>
 
                                 <div class="col-lg-6 col-12">
-                                    <input type="email" name="volunteer-email" id="volunteer-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                                    <input type="email" name="volunteer-email" id="volunteer-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com">
                                 </div>
 
                                 <div class="col-lg-6 col-12">
-                                    <input type="text" name="volunteer-subject" id="volunteer-subject" class="form-control" placeholder="Subject" required>
+                                    <input type="text" name="volunteer-subject" id="volunteer-subject" class="form-control" placeholder="Subject" >
                                 </div>
 
                                 <div class="col-lg-6 col-12">
@@ -381,7 +381,7 @@
                             <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message" placeholder="Comment (Optional)"></textarea>
 
                             <button type="submit" class="form-control">Submit</button>
-                        </form>
+                        </div>
                     </div>
 
                     <div class="col-lg-6 col-12">
@@ -510,13 +510,13 @@
                     </div>
 
                     <div class="col-lg-4 col-12 mx-auto">
-                        <form class="custom-form search-form" action="#" method="get" role="form">
+                        <div class="custom-form search-form">
                             <input name="search" type="search" class="form-control" id="search" placeholder="Search" aria-label="Search">
 
                             <button type="submit" class="form-control">
                                 <i class="bi-search"></i>
                             </button>
-                        </form>
+                        </div>
 
                         <h5 class="mt-5 mb-3">Recent news</h5>
 
@@ -611,15 +611,15 @@
                             </a>
                         </div>
 
-                        <form class="custom-form subscribe-form" action="#" method="get" role="form">
+                        <div class="custom-form subscribe-form">
                             <h5 class="mb-4">Newsletter Form</h5>
 
-                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required>
+                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" >
 
                             <div class="col-lg-12 col-12">
                                 <button type="submit" class="form-control">Subscribe</button>
                             </div>
-                        </form>
+                        </div>
                     </div>
 
                 </div>
@@ -741,7 +741,7 @@
                     </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
+                        <div class="custom-form contact-form">
                             <h2>Contact form</h2>
 
                             <p class="mb-4">
@@ -750,20 +750,20 @@
                             </p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="first-name" id="first-name" class="form-control" placeholder="Jack" required>
+                                    <input type="text" name="first-name" id="first-name" class="form-control" placeholder="Jack">
                                 </div>
 
                                 <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe" required>
+                                    <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe">
                                 </div>
                             </div>
 
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com">
 
                             <textarea name="message" rows="5" class="form-control" id="message" placeholder="What can we help you?"></textarea>
 
                             <button type="submit" class="form-control">Send Message</button>
-                        </form>
+                        </div>
                     </div>
 
                 </div>

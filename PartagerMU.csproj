@@ -103,6 +103,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\partagerfoundation.mdf" />
+    <Content Include="App_Data\partagerfoundation_log.ldf">
+      <DependentUpon>partagerfoundation.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -152,6 +156,48 @@
     <Content Include="images\slide\volunteer-helping-with-donation-box.jpg" />
     <Content Include="images\slide\volunteer-selecting-organizing-clothes-donations-charity.jpg" />
     <Content Include="images\smiling-casual-woman-dressed-volunteer-t-shirt-with-badge.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="Login_form\css\main.css" />
+    <Content Include="Login_form\css\util.css" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Login_form\fonts\iconic\css\material-design-iconic-font.css" />
+    <Content Include="Login_form\fonts\iconic\css\material-design-iconic-font.min.css" />
+    <Content Include="Login_form\fonts\iconic\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="Login_form\images\icons\favicon.ico" />
+    <Content Include="Login_form\js\main.js" />
+    <Content Include="Login_form\vendor\animate\animate.css" />
+    <Content Include="Login_form\vendor\animsition\css\animsition.css" />
+    <Content Include="Login_form\vendor\animsition\css\animsition.min.css" />
+    <Content Include="Login_form\vendor\animsition\js\animsition.js" />
+    <Content Include="Login_form\vendor\animsition\js\animsition.min.js" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Login_form\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="Login_form\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Login_form\vendor\bootstrap\js\popper.js" />
+    <Content Include="Login_form\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="Login_form\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="Login_form\vendor\countdowntime\countdowntime.js" />
+    <Content Include="Login_form\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="Login_form\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="Login_form\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="Login_form\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="Login_form\vendor\daterangepicker\moment.js" />
+    <Content Include="Login_form\vendor\daterangepicker\moment.min.js" />
+    <Content Include="Login_form\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="Login_form\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="Login_form\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="Login_form\vendor\select2\select2.css" />
+    <Content Include="Login_form\vendor\select2\select2.js" />
+    <Content Include="Login_form\vendor\select2\select2.min.css" />
+    <Content Include="Login_form\vendor\select2\select2.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -181,6 +227,78 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="MasterPage.Master" />
+    <Content Include="fonts\bootstrap-icons.woff" />
+    <Content Include="fonts\bootstrap-icons.woff2" />
+    <Content Include="fonts\Metropolis\.DS_Store" />
+    <Content Include="fonts\Metropolis\Metropolis-Bold.woff" />
+    <Content Include="fonts\Metropolis\Metropolis-Bold.woff2" />
+    <Content Include="fonts\Metropolis\Metropolis-Light.woff" />
+    <Content Include="fonts\Metropolis\Metropolis-Light.woff2" />
+    <Content Include="fonts\Metropolis\Metropolis-Regular.woff" />
+    <Content Include="fonts\Metropolis\Metropolis-Regular.woff2" />
+    <Content Include="fonts\Metropolis\Metropolis-SemiBold.woff" />
+    <Content Include="fonts\Metropolis\Metropolis-SemiBold.woff2" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="Login_form\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="Login_form\fonts\iconic\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="Login_form\fonts\iconic\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="Login_form\fonts\iconic\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="Login_form\fonts\iconic\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="Login_form\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Login_form\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\click-scroll.js" />
     <Content Include="Scripts\counter.js" />
@@ -253,6 +371,12 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,9 +407,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
